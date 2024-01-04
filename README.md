@@ -1,7 +1,7 @@
 # Automatic-Irrigation-System
 The aim of this project is to create a automatic irrigation system in Arduino that will monitor the level of the soil moisture and start a water pump when the soil is too dry. Additionally, to ensure that the plant benefits from enough light,  a photoresistor will measure the light intensity.
 
-Required components:
+## Required components:
 
 - Arduino Uno R3 development board
 - Breadboard
@@ -15,7 +15,7 @@ Required components:
 - Battery connection bracket
 - Connector wires
 
-Demonstration:
+## Demonstration of the project:
 
 https://github.com/oanasabau1/Automatic-Irrigation-System/assets/115418520/92bd70f7-3289-4daf-a1d2-db947cc9f4e9
 
