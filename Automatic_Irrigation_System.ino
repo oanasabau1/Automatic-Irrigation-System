@@ -11,7 +11,6 @@
 // Including the specific libraries for the LCD component
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-
 // I2C pins declaration
 LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 
@@ -25,7 +24,6 @@ int soilMoistureValue = 0;
 int percentage = 0;
 int light = 0;
 int photoResistorThreshold = 10; // Set the desired threshold value for the photoresistor
-
 
 void setup() {
 
@@ -89,6 +87,7 @@ void loop() {
     lcd.print("Nice lighting!     "); // Ensure a stable display width
     Serial.println("Nice lighting!");
   }
+  Serial.println("\n");
 
   // Wait for one second
   delay(1000);
