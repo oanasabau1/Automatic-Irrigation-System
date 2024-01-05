@@ -15,7 +15,7 @@ The aim of this project is to create a automatic irrigation system in Arduino th
 - Battery connection bracket
 - Connector wires
 
-## Demonstration of the project:
+## Project Demonstration:
 
 https://github.com/oanasabau1/Automatic-Irrigation-System/assets/115418520/92bd70f7-3289-4daf-a1d2-db947cc9f4e9
 
